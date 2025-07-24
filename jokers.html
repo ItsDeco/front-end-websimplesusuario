@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Pagina web compra y venta" />
+    <meta name="keywords" content="WEB, HTML, HEAD" />
+    <meta name="description" content="cabecera"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buylatro</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/ico" href="img/icono.png"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    
+    <mi-menu></mi-menu>
+    <cabecera-tienda></cabecera-tienda>
+
+    <div class="tienda-grid-wrap">
+        <h2>Jokers</h2>
+        <div class="tienda-grid">
+            
+            <div class="tienda-item">
+                <img src="img/Banano.png" alt="Banano">
+                <div class="item-info">
+                    <h3>Banano</h3>
+                    <p>La carta del banano. Una clasica solamente por 5€</p>
+                    <button class="comprar" onclick="agregarAlCarrito()">Comprar</button>
+                </div>
+            </div>
+
+            <div class="tienda-item">
+                <img src="img/Mimo.png" alt="Mimo">
+                <div class="item-info">
+                    <h3>Mimo</h3>
+                    <p>Mimate a ti mismo con el mimo. Por tan solo 15€!!</p>
+                    <button class="comprar" onclick="agregarAlCarrito()">Comprar</button>
+                </div>
+            </div>
+
+            <div class="tienda-item">
+                <img src="img/Holograma.png" alt="Holograma">
+                <div class="item-info">
+                    <h3>Holograma</h3>
+                    <p>H o l o. 10€</p>
+                    <button class="comprar" onclick="agregarAlCarrito()">Comprar</button>
+                </div>
+            </div>
+
+            <div class="tienda-item">
+                <img src="img/Cavendish.png" alt="Cavendish">
+                <div class="item-info">
+                    <h3>Cavendish</h3>
+                    <p>El padre del banano. Si compras uno, tienes que comprar el otro! 50€</p>
+                    <button class="comprar" onclick="agregarAlCarrito()">Comprar</button>
+                </div>
+            </div>
+
+            <div class="tienda-item">
+                <img src="img/ADN.png" alt="ADN">
+                <div class="item-info">
+                    <h3>ADN</h3>
+                    <p>Descubre mas sobre ti mismo por tan solo 20€.</p>
+                    <button class="comprar" onclick="agregarAlCarrito()">Comprar</button>
+                </div>
+            </div>
+
+            <div class="tienda-item">
+                <img src="img/ComodinPiedra.png" alt="Comodín de piedra">
+                <div class="item-info">
+                    <h3>Comodín de piedra</h3>
+                    <p>Duro como una piedra 15€.</p>
+                    <button class="comprar" onclick="agregarAlCarrito()">Comprar</button>
+                </div>
+            </div>
+
+            <div class="tienda-item">
+                <img src="img/Ramen.png" alt="Ramen">
+                <div class="item-info">
+                    <h3>Ramen</h3>
+                    <p>Tienes hambre? Porque yo si! 15€</p>
+                    <button class="comprar" onclick="agregarAlCarrito()">Comprar</button>
+                </div>
+            </div>
+
+            <div class="tienda-item">
+                <img src="img/PuntaDeFlecha.png" alt="Punta de flecha">
+                <div class="item-info">
+                    <h3>Punta de flecha</h3>
+                    <p>Util en casos especificos. Por tan solo 15€</p>
+                    <button class="comprar" onclick="agregarAlCarrito()">Comprar</button>
+                </div>
+            </div>
+
+            <div class="tienda-item">
+                <img src="img/PapelPerforado.png" alt="Papel Perforado">
+                <div class="item-info">
+                    <h3>Papel Perforado</h3>
+                    <p>Perfora mas de lo que piensas. 10€</p>
+                    <button class="comprar" onclick="agregarAlCarrito()">Comprar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <mi-footer></mi-footer>
+
+    <script>
+        function agregarAlCarrito() {
+            alert("Ítem añadido al carrito");
+        }
+    </script>
+
+    <script src="js/mis-etiquetas.js" async defer></script>
+</body>
+
+</html>
